@@ -238,14 +238,6 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
-name = "kaleido"
-version = "0.2.1"
-description = "Static image export for web-based visualization libraries with zero dependencies"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "lxml"
 version = "4.9.1"
 description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
@@ -598,7 +590,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "7efadc04ef6708f4934b029b0b2ec97fe39e95c3d04bd6a5b16ae3c799d57063"
+content-hash = "cc4b0a443a120a3378b39e402ef74df7230897843c7d8fdced80c9ab203216f0"
 
 [metadata.files]
 aiohttp = []
@@ -622,7 +614,6 @@ idna = []
 importlib-metadata = []
 itsdangerous = []
 jinja2 = []
-kaleido = []
 lxml = []
 markupsafe = []
 multidict = []
